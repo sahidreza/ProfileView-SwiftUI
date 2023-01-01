@@ -8,17 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		D11803F62961AA0F00987654 /* SahidProfileViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11803F52961AA0F00987654 /* SahidProfileViewApp.swift */; };
-		D11803F82961AA0F00987654 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11803F72961AA0F00987654 /* ContentView.swift */; };
 		D11803FA2961AA1500987654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11803F92961AA1500987654 /* Assets.xcassets */; };
 		D11803FD2961AA1500987654 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11803FC2961AA1500987654 /* Preview Assets.xcassets */; };
+		D11804052961AE0C00987654 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D11804042961AE0C00987654 /* Pacifico-Regular.ttf */; };
+		D118040A2961BC1300987654 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11804092961BC1300987654 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D11803F22961AA0F00987654 /* SahidProfileView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SahidProfileView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11803F52961AA0F00987654 /* SahidProfileViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SahidProfileViewApp.swift; sourceTree = "<group>"; };
-		D11803F72961AA0F00987654 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D11803F92961AA1500987654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D11803FC2961AA1500987654 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D11804042961AE0C00987654 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		D11804062961AF1800987654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D11804092961BC1300987654 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		D11803F42961AA0F00987654 /* SahidProfileView */ = {
 			isa = PBXGroup;
 			children = (
+				D11804062961AF1800987654 /* Info.plist */,
+				D11804032961ADF400987654 /* Front */,
 				D11803F52961AA0F00987654 /* SahidProfileViewApp.swift */,
-				D11803F72961AA0F00987654 /* ContentView.swift */,
+				D11804092961BC1300987654 /* ContentView.swift */,
 				D11803F92961AA1500987654 /* Assets.xcassets */,
 				D11803FB2961AA1500987654 /* Preview Content */,
 			);
@@ -65,6 +70,14 @@
 				D11803FC2961AA1500987654 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D11804032961ADF400987654 /* Front */ = {
+			isa = PBXGroup;
+			children = (
+				D11804042961AE0C00987654 /* Pacifico-Regular.ttf */,
+			);
+			path = Front;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11804052961AE0C00987654 /* Pacifico-Regular.ttf in Resources */,
 				D11803FD2961AA1500987654 /* Preview Assets.xcassets in Resources */,
 				D11803FA2961AA1500987654 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D11803F82961AA0F00987654 /* ContentView.swift in Sources */,
 				D11803F62961AA0F00987654 /* SahidProfileViewApp.swift in Sources */,
+				D118040A2961BC1300987654 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +283,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SahidProfileView/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SahidProfileView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +313,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SahidProfileView/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SahidProfileView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
